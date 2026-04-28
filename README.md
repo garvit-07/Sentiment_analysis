@@ -120,26 +120,7 @@ Model selection is based on **weighted F1-score** to ensure balanced performance
 
 ---
 
-## 📁 Project Structure
 
-```
-Sentiment_analysis/
-│
-├── sentiment_model.ipynb    # Main notebook: training & evaluation
-│
-├── data/
-│   ├── train.csv            # Training data
-│   ├── val.csv              # Validation data
-│   └── test.csv             # Test data
-│
-├── outputs/
-│   ├── checkpoint-*/        # Model checkpoints (saved per epoch)
-│   └── best_model/          # Best checkpoint by F1-score
-│
-└── README.md
-```
-
----
 
 ## 🔧 Installation
 
@@ -194,20 +175,8 @@ print(f"Sentiment: {labels[pred]}")
 
 ---
 
-## 📈 Results
 
-> Results are generated after running the notebook. Training curves and a classification report are saved in `outputs/`.
 
-| Class | Precision | Recall | F1-Score |
-|-------|-----------|--------|----------|
-| Positive | — | — | — |
-| Negative | — | — | — |
-| Neutral  | — | — | — |
-| **Weighted Avg** | — | — | **—** |
-
-*Fill in after training on your dataset.*
-
----
 
 ## 🚀 Future Improvements
 
@@ -228,10 +197,6 @@ print(f"Sentiment: {labels[pred]}")
 
 ---
 
-## 📄 License
 
-This project is licensed under the **MIT License** — free to use, modify, and distribute.
-
----
 
 <p align="center">Made with ❤️ for learning NLP and Transformers</p>
